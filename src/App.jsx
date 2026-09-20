@@ -1,3 +1,4 @@
+import Recommendation from "./components/Recommendation"
 function App() {
   return (
     <div>
@@ -16,6 +17,8 @@ function App() {
         <p>Học phí: 30 triệu/năm</p>
         <p>Khu vực: TP.HCM</p>
       </div>
+      {/* Component Người 2 */}
+      <Recommendation />
     </div>
   )
 }
